@@ -1,0 +1,71 @@
+.School-class{
+    display:flex;
+    &::not(:last-child){
+        padding-bottom: 3rem;
+    }
+    p{
+        padding-right: 1rem;
+        svg{
+            font-size: 3rem;
+        }
+    }
+    h3{
+        color: white;
+        font-size: 2rem;
+    }
+}
+
+.Edu-Details{
+    display:flex;
+    margin-top: 2rem;
+    .left-content{
+        padding-left:20px;
+        width:40%;
+        p{
+            display:inline-block;
+        }
+
+    }
+    .right-content{
+        padding-left: 3.5rem;
+        position: relative;
+        &::before{
+            content: "";
+            position:absolute;
+            left: 0;
+            top: 15px;
+            height: 2px;
+            width: 2rem;
+            background-color: rgb(57, 55, 133);
+
+        }
+
+        h5{
+            color: rgb(56, 39, 218);
+            font-size:1.5rem;
+            padding-bottom: .2rem;
+        }
+
+        h6{
+            font-size: 1rem;
+            padding-bottom: .4rem;
+        }
+
+    }
+}
+
+
+.Edu-item{
+    border-left: 2px solid rgb(57, 55, 133);
+
+}
+
+
+.inner-layout{
+    margin-top: 7em;
+    @media screen and (max-width: 1080px ){
+       margin-top: 10rem;
+    
+    }
+}
+

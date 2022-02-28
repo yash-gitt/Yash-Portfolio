@@ -1,0 +1,50 @@
+@import './styles/layout';
+@import './styles/typography';
+@import './styles/NavBar';
+@import './styles/Tittle';
+@import './styles/about'; 
+@import './styles/skill';
+@import './styles/project';
+@import './styles/contact';
+@import './styles/edu';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body::-webkit-scrollbar{
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #0381ff79;
+    border-radius:50px ;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #a4acc4;
+}
+
+
+
+body {
+    color: #a4acc4;
+    font-family:'M PLUS Rounded 1c', sans-serif; 
+    font-size: 1.2rem;
+}
+
+
+span {
+    color: #037FFF;
+}
+
+@media screen and (max-width: 1000px) {
+    html{
+        font-size: 42%;
+    }
+    
+}
+
+ 

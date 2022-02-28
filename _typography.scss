@@ -1,0 +1,49 @@
+.HomePage{
+    position:absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 80;
+    background: fixed;
+}
+
+
+.hero-text{
+    span{
+        color: #28cacf
+    }
+}
+
+.para {
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+    margin-right: 3rem;
+    .icon-holder {
+        margin-right: 2rem;
+        .icon{
+            margin-right: 1rem;
+            font-size: 3rem;
+            transition: all .4s ease-in-out;
+    
+        }
+        .fb:hover{
+            color: blue;
+        }
+        .gh:hover{
+            color:#28cacf
+        }
+        .ln:hover{
+            color: red;
+        }
+    
+    }
+
+}
+
+
