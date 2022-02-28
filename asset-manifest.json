@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Yash-Portfolio/static/css/main.0e45a857.css",
+    "main.js": "/Yash-Portfolio/static/js/main.441ed0f7.js",
+    "static/media/covid.jpeg": "/Yash-Portfolio/static/media/covid.6ca2d11e2c84407a91b5.jpeg",
+    "static/media/yash.jpeg": "/Yash-Portfolio/static/media/yash.c3d1f299966786b432d3.jpeg",
+    "static/media/yash2.jpeg": "/Yash-Portfolio/static/media/yash2.fcd31617c3b16676566b.jpeg",
+    "static/media/weather.jpeg": "/Yash-Portfolio/static/media/weather.b3b6573254af0b9653a3.jpeg",
+    "index.html": "/Yash-Portfolio/index.html",
+    "main.0e45a857.css.map": "/Yash-Portfolio/static/css/main.0e45a857.css.map",
+    "main.441ed0f7.js.map": "/Yash-Portfolio/static/js/main.441ed0f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e45a857.css",
+    "static/js/main.441ed0f7.js"
+  ]
+}
